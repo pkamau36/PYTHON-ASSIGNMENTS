@@ -18,13 +18,12 @@ def file_read_write():
         print(f"✅ File processed successfully! Modified version saved as: {output_file}")
 
     except FileNotFoundError:
-        # Case 1: File does not exist
+        # File does not exist
         print("❌ Error: The file is non-existent.")
 
     except PermissionError:
-        # Case 2: File exists but cannot be read (no access)
+        #  File exists but cannot be read (no access)
         print("❌ Error: You cannot read this file.Seek Administrator help.")
-
-
-# 👇 This is the missing line
+        
+#call function
 file_read_write()
