@@ -14,8 +14,8 @@ def calculate_discount(price, discount_percent):
     
 # prompt the user for the original price and discount percentage
 print("welcome to the Discount Calculator!")
-price = float(input("Enter the original price: "))
-discount_percent = float(input("Enter the discount percentage: "))
+price = float(input(" Please Enter the original price: "))
+discount_percent = float(input("Please Enter the discount percentage: "))
 
 
 # call the function and print the final price
@@ -27,4 +27,3 @@ else:
     print(f"No discount applied. The final price is: {price:.2f}")
 
     print("Thank you for using the Discount Calculator!")
-
