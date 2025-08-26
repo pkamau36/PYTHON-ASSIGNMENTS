@@ -7,7 +7,7 @@ def file_read_write():
         with open(filename, "r") as file:
             content = file.read()
 
-        # Modify content (make it uppercase for demo)
+        # Modify content
         modified_content = content.upper()
 
         # Save new version
