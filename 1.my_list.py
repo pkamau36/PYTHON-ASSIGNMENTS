@@ -1,4 +1,4 @@
-# empty list
+#  create an empty list
 my_list = []
 
 # append elements to the list
